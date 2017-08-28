@@ -1,0 +1,24 @@
+<div class="container">
+
+  <h1 class="hero">{{ user.firstName }} {{ user.lastName }}</h1>
+
+  <div class="contentContainer">
+    <h2>Contact Info</h2>
+    <p><strong>Phone: </strong> {{ user.phone }}</p>
+    <p><strong>Address: </strong> {{ user.street1 }}</p>
+    <p><strong>Apt #: </strong> {{ user.street2 }}</p>
+    <p><strong>City: </strong> {{ user.city }}</p>
+    <p><strong>State: </strong> {{ user.state }}</p>
+    <p><strong>Zip: </strong> {{ user.zip }}</p>
+
+    <h2>Credit Card Info</h2>
+    <p><strong>Credit Card Number: </strong> {{ user.cardNumber }}</p>
+    <p><strong>Card Type: </strong> {{ user.cardType }}</p>
+    <p><strong>Security Code: </strong> {{ user.security }}</p>
+
+    <a ui-sref="editUser({id: {{ user.id }} })"><button class="btn btn-info">Update</button></a>
+    <button ng-click="deleteUser()" class="btn btn-danger">Delete</button>
+  </div>
+
+
+</div><!-- Container End -->

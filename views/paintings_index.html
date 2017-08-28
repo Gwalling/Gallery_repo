@@ -1,0 +1,46 @@
+<div class="container">
+
+
+  <div class="row">
+    <h2>Search For Paintings</h2>
+    <div class="form-group col-md-11">
+      <input type="text" class="form-control" placeholder="Search..." ng-model="paintingSearch">
+    </div>
+
+    <div class="col-md-1">
+      <button class="btn btn-primary pull-right" ui-sref="newPaintings">New Painting</button>
+    </div>
+  </div>
+
+
+  <div class="row paintingSection">
+    <div class="paintingContainer col-md-3" ng-repeat="painting in paintings | filter: paintingSearch">
+      <div class="Header">
+        <h1 class="paintingHeading">{{ painting.artistName }}</h1>
+      </div>
+      <div class="paintingBody">
+        <p><strong>Image:</strong> <img src="{{ painting.image }}" style="width:300px;height:300px;"></p>
+        <p><strong>Collection:</strong> {{ painting.collection }}</p>
+        <p><strong>Name:</strong> {{ painting.name }}</p>
+        <p><strong>Type:</strong> {{ painting.type }}</p>
+        <p><strong>Dimensions:</strong> {{ painting.dimensions }}</p>
+        <p><strong>Style:</strong> {{ painting.style }}</p>
+        <p><strong>Medium:</strong> {{ painting.medium }}</p>
+        <p><strong>Price:</strong> ${{ painting.price }}</p>
+
+        <a ui-sref="showPainting({id: {{ painting.id }} })">
+          <button class="btn btn-primary">View</button>
+          <button class="btn btn-primary" ng-click="addToCart(painting)">Add To Cart</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</div><!-- Container End -->
+
+
+
+
+
+
+

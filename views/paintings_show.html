@@ -1,0 +1,23 @@
+<div class="container">
+
+  <h1 class="hero">{{ painting.name }}</h1>
+
+  <div class="contentContainer">
+    <h2>Painting Info</h2>
+    <p><strong>Image:</strong> <img src="{{ painting.image }}" style="width:300px;height:300px;"></p>
+    <p><strong>Collection: </strong> {{ painting.collection }}</p>
+    <p><strong>Type: </strong> {{ painting.type }}</p>
+    <p><strong>Dimensions: </strong> {{ painting.dimensions }}</p>
+    <p><strong>Style: </strong> {{ painting.style }}</p>
+    <p><strong>Medium: </strong> {{ painting.medium }}</p>
+    <p><strong>Price: </strong> ${{ painting.price }}</p>
+
+
+    <a ui-sref="editPainting({id: {{ painting.id }} })"><button class="btn btn-info">Update</button></a>
+    <button ng-click="deletePainting()" class="btn btn-danger">Delete</button>
+  </div>
+
+
+</div><!-- Container End -->
+
+

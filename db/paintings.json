@@ -1,0 +1,158 @@
+[
+  {
+    "id": 0,
+    "image": "https://i.imgur.com/YyJaNPm.jpg",
+    "collection": 3,
+    "name": "Violin",
+    "type": "Oil",
+    "dimensions": "30x40",
+    "style": "Still-Life",
+    "medium": "Canvas",
+    "price": 40
+  },
+{
+    "id": 1,
+    "image": "https://i.imgur.com/EIHzNLT.jpg",
+    "collection": 2,
+    "name": "Doggy",
+    "type": "Oil",
+    "dimensions": "30x30",
+    "style": "Animal",
+    "medium": "Canvas",
+    "price": 20
+
+  },
+
+{
+    "id": 2,
+    "image": "https://i.imgur.com/tG0pNTg.jpg",
+    "collection": 1,
+    "name": "Early Birds",
+    "type": "Oil",
+    "dimensions": "12x12",
+    "style": "Animal",
+    "medium": "Panel",
+    "price": 25
+  },
+
+{
+    "id": 3,
+    "image": "https://i.imgur.com/J5s574h.jpg",
+    "collection": 1,
+    "name": "Portrait of a Student",
+    "type": "Oil",
+    "dimensions": "30x40",
+    "style": "Portrait",
+    "medium": "Canvas",
+    "price": 50
+
+  },
+  {
+    "id": 4,
+    "image": "https://i.imgur.com/zfMhdY9.jpg",
+    "collection": 1,
+    "name": "Afternoon Tea",
+    "type": "Oil",
+    "dimensions": "30x40",
+    "style": "Still-Life",
+    "medium": "Canvas",
+    "price": 35
+  },
+
+{
+    "id": 5,
+    "image": "https://i.imgur.com/AyG7vkP.jpg",
+    "collection": 2,
+    "name": "Surf's Up",
+    "type": "Oil",
+    "dimensions": "30x40",
+    "style": "Still-Life",
+    "medium": "Canvas",
+    "price": 30
+  },
+
+  {
+    "id": 6,
+    "image": "https://i.imgur.com/VtwjjCg.jpg",
+    "collection": 3,
+    "name": "Sunny Day",
+    "type": "Oil",
+    "dimensions": "30x40",
+    "style": "Still-Life",
+    "medium": "Canvas",
+    "price": 20
+  },
+
+  {
+    "id": 7,
+    "image": "https://i.imgur.com/JwEWXVr.jpg",
+    "collection": 2,
+    "name": "Bloom",
+    "type": "Oil",
+    "dimensions": "12x12",
+    "style": "Watercolor",
+    "medium": "Canvas",
+    "price": 25
+
+  },
+
+  {
+    "id": 8,
+    "image": "https://i.imgur.com/pVwLvpG.jpg",
+    "collection": 2,
+    "name": "Beach Boys",
+    "type": "Oil",
+    "dimensions": "40x50",
+    "style": "Eco-Realism",
+    "medium": "Canvas",
+    "price": 90
+
+  },
+
+
+  {
+    "id": 9,
+    "image": "https://i.imgur.com/boCmTjo.jpg",
+    "collection": 3,
+    "name": "Lady",
+    "type": "Watercolor",
+    "dimensions": "20x20",
+    "style": "Portrait",
+    "medium": "Panel",
+    "price": 40
+
+  },
+
+  {
+    "id": 10,
+    "image": "https://i.imgur.com/kVWeAXa.jpg",
+    "collection": 3,
+    "name": "Bridge",
+    "type": "Oil",
+    "dimensions": "30x40",
+    "style": "Eco-Realism",
+    "medium": "Panel",
+    "price": 40
+
+  },
+
+  
+{
+    "id": 11,
+    "image": "https://i.imgur.com/RgwpGEI.jpg",
+    "collection": 3,
+    "name": "Sunday",
+    "type": "Oil",
+    "dimensions": "30x40",
+    "style": "Eco-Realism",
+    "medium": "Panel",
+    "price": 40
+
+  }
+
+]
+
+
+
+
+

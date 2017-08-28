@@ -1,0 +1,65 @@
+<div class="container">
+  <h1 class="hero">Add a Painting</h1>
+
+  <div class="row">
+    <h3 class="sectionHeader">Painting Information</h3>
+
+    <div class="form-group col-md-6">
+      <label>ID</label>
+      <input type="text" class="form-control" placeholder="ID" ng-model="painting.id">
+    </div>
+
+    <div class="form-group col-md-6">
+      <label>Image</label>
+      <input type="text" class="form-control" placeholder="Image" ng-model="painting.image">
+    </div>
+
+    <div class="form-group col-md-6">
+      <label>Collection</label>
+      <input type="text" class="form-control" placeholder="Collection" ng-model="painting.collection">
+    </div>
+
+    <div class="form-group col-md-6">
+      <label>Name</label>
+      <input type="text" class="form-control" placeholder="Name" ng-model="painting.name">
+    </div>
+
+    <div class="form-group col-md-6">
+      <label>Type</label>
+      <input type="date" class="form-control" placeholder="Type" ng-model="painting.type">
+    </div>
+
+    <div class="form-group col-md-4">
+      <label>Dimensions</label>
+      <input type="text" class="form-control" placeholder="Dimensions" ng-model="painting.dimensions">
+    </div>
+
+    <div class="form-group col-md-4">
+      <label>Style</label>
+      <input type="text" class="form-control" placeholder="Style" ng-model="painting.style">
+    </div>
+
+    <div class="form-group col-md-4">
+      <label>Medium</label>
+      <input type="text" class="form-control" placeholder="Canvas/Linen/Panel" ng-model="painting.medium">
+    </div>
+
+    <div class="form-group col-md-4">
+      <label>Price</label>
+      <input type="text" class="form-control" placeholder="$" ng-model="painting.price">
+    </div>
+
+    <button class="btn pull-right btn-primary cbtn" ng-show="submitButton" ng-click="addPainting()">Submit</button>
+
+
+    <button ng-show="saveButton" ng-click="updatePainting()" class="btn btn-success btn-lg pull-right cbtn">Update</button>
+
+
+    <!-- <button class="btn pull-right btn-success cbtn" ng-show="saveButton" ng-click="updatePainting()">Update</button> -->
+  
+  
+  </div>
+
+
+
+</div><!-- Container End -->

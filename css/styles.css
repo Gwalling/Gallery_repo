@@ -1,0 +1,112 @@
+
+
+
+.navContainer {
+    background-color: black;
+    height: 100px;
+}
+
+.navBar {
+    width: 50%;
+    margin: 0 auto;
+    height: inherit;
+    padding: 40px 0;
+}
+
+.navBar a{
+  width: 25%;
+  text-align: center;
+      display: block;
+    float: left;
+    color: white;
+}
+
+
+h1 {
+
+    font-family: "Garamond", Lucida, serif;
+
+}
+
+h2 {
+  font-family: "Garamond", Lucida, serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.main-nav {
+	width: 100%;
+	position: relative;
+	padding-bottom: 25px;
+}
+
+.main-nav:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 6px;
+	border-top: 1px solid #444;
+	border-bottom: 3px solid #444;
+}
+
+.main-nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.main-nav ul li {
+	display: inline;
+}
+
+.main-nav ul li a {
+	font-family: 'EB Garamond', serif;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	text-transform: uppercase;
+	color: #444;
+	text-decoration: none;
+	letter-spacing: .5px;
+	margin: 5px 13px;
+	padding-bottom: 3px;
+	display: inline-block;
+	position: relative;
+}
+
+.main-nav ul li a:hover {
+	color: #000;
+}
+
+.main-nav .selectednavlink a:after {
+	content: "";
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	background: #444;
+}
+
+.main-nav .emptynavlink {
+	display: none;
+	visibility: hidden;
+} */
